@@ -4,30 +4,20 @@ Sets up a container based on [walm/java](https://github.com/walm/docker-java)
 
 ## Includes
 
-  * Elasticsearch 1.3.4 (with multicast disabled and dynamic scripting sandbox)
+  * Elasticsearch 1.3.0 (with multicast disabled and dynamic scripting sandbox)
   * plugin [lmenezes/elasticsearch-kopf](https://github.com/lmenezes/elasticsearch-kopf)
   * plugin [mobz/elasticsearch-head](https://github.com/mobz/elasticsearch-head)
-
-## Usage
-
-To run the container, do the following:
-
-    docker run -d walm/elasticsearch
 
 ## Building
 
 To build the image, simply invoke
 
-    docker build github.com/walm/docker-elasticsearch
+    docker build github.com/fmbento/docker-elasticsearch
 
-A prebuilt container is also available in the docker index
-
-    docker pull walm/elasticsearch
-
-## Author
+## Original Author
 
   * Andreas Wålm (<andreas@walm.net>)
-
+  
 ## LICENSE
 
 Copyright (c) 2014 Andreas Wålm
